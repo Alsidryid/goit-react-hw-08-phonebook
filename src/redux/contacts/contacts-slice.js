@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { fetchContacts, addContact, deleteContact } from './contact-operations';
-import { nanoid } from 'nanoid';
+// import { nanoid } from 'nanoid';
 const pending = state => {
   state.loading = true;
 };
