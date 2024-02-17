@@ -1,0 +1,27 @@
+.nav {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  background-color: rgb(172, 221, 221);
+  padding: 10px;
+}
+.link {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.link:global(.active) {
+  color: red;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+.link:hover,
+.link:focus {
+  color: red;
+}

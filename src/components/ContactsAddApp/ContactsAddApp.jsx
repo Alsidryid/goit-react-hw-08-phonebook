@@ -2,6 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { setFilter } from '../../redux/filter/filter-slice';
 import ConstactsList from '../ContactsList/ContactsList';
+import Loader from 'components/Loader/Loader';
 import PhoneForm from '../PhoneForm/PhoneForm';
 import Filter from '../Filter/Filter';
 import style from './ContactsAddApp.module.css';
@@ -32,13 +33,13 @@ const ContactsAddApp = () => {
   const changeFilter = ({ target }) => dispatch(setFilter(target.value));
 
   return (
-    <div className={style.box}>
+    <div className={style.add}>
       <h1 className={style.title}>Phonebook</h1>
       <PhoneForm onSubmit={onAddContact} />
       <div>
         <h2 className={style.title}>Contacts</h2>
         <Filter onChange={changeFilter} />
-        {loading && <p>...loading</p>}
+        {loading && <Loader />}
         {error && <p>{error}</p>}
         {Boolean(contacts.length) && (
           <ConstactsList items={contacts} onDeleteContact={onDeleteContact} />

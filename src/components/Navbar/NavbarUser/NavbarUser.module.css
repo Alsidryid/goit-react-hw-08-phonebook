@@ -1,0 +1,22 @@
+.btn {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 10px;
+  background-color: rgb(255, 215, 196);
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: rgb(247, 97, 91);
+}
+.user {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

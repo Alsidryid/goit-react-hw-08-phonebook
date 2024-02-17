@@ -1,0 +1,18 @@
+.link:global(.active) {
+  color: red;
+}
+.link {
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.registr {
+  display: flex;
+  align-items: center;
+}
+.link:hover,
+.link:focus {
+  color: red;
+}
