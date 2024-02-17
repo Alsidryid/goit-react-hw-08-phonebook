@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[581],{9349:function(e,a,t){t.r(a),t.d(a,{default:function(){return m}});var c="Home_home__CMw1J",s="Home_image__dxFyw",n=t.p+"static/media/2.c4a22aaa933572724195.png",r=t(184),m=function(){return(0,r.jsxs)("div",{className:c,children:[(0,r.jsx)("h1",{children:"PHONEBOOK"}),(0,r.jsx)("img",{className:s,src:n,alt:"phone"})]})}}}]);
+//# sourceMappingURL=581.a6ea431b.chunk.js.map
