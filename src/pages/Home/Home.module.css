@@ -2,3 +2,8 @@
   text-align: center;
   color: rgb(65, 63, 63);
 }
+.image {
+  display: block;
+  max-width: 95%;
+  margin: auto;
+}
